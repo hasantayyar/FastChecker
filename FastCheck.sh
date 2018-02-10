@@ -100,7 +100,7 @@ do
 	"Strict-Transport-Security")
 		echo "Checking Strict-Transport-Security:"
 		echo
-		curl -si $hostname | grep "Strict" 
+		curl -si $hostname | grep "strict" 
 		echo
 		;;
 	"Banner grabbing")
